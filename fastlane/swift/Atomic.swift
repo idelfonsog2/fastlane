@@ -3,7 +3,7 @@
 
 import Foundation
 
-protocol DictionaryProtocol: class {
+protocol DictionaryProtocol {
     associatedtype Key: Hashable
     associatedtype Value
 
